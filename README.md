@@ -27,7 +27,7 @@ First we check that pretrained CLIP is not robust to simple transformations such
 python EquiCLIP/main_equizero.py --device DEVICE --data_transformations DATA_TRANSFORMATIONS  --method "vanilla" --model MODEL_NAME --dataset_name DATASET_NAME
 ```
 
-where choose DEVICE from ["cpu", "cuda"], DATA_TRANSFORMATIONS from ["", "flip", "rot90"], MODEL_NAME from ["RN50", "RN101", "ViT-B/32", "ViT-B/16"].
+where choose DEVICE from ["cpu", "cuda"], DATA_TRANSFORMATIONS from ["", "flip", "rot90"], MODEL_NAME from ["RN50", "RN101", "ViT-B/32", "ViT-B/16"], DATASET_NAME from ["ImagenetV2", "CIFAR100"].
 
 The obtained results are shown below
 
