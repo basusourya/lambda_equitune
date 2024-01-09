@@ -1,0 +1,10 @@
+--layer_type
+RNN
+--use_attention
+--bidirectional
+--split
+simple
+--n_iters
+200000
+--save_dir
+./debug_models/
