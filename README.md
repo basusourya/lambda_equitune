@@ -15,6 +15,7 @@ conda env create -f environment.yml
 conda activate lambda_equitune
 pip install git+https://github.com/openai/CLIP.git
 pip install git+https://github.com/modestyachts/ImageNetV2_pytorch
+python3 -m pip install requests  
 ```
 
 # Equi/Invariant Image Classification using CLIP
